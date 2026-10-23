@@ -9,12 +9,12 @@
 
 ## 运行遍历动画
 
-在 PyCharm 中打开 `move.py`，使用项目的 `.venv` 解释器，点击运行即可看到动画窗口。
+在 PyCharm 中打开 `findMedianSortedArrays/move.py`，使用项目的 `.venv` 解释器，点击运行即可看到动画窗口。
 
 也可以在项目目录运行：
 
 ```bash
-.venv/bin/python move.py
+.venv/bin/python findMedianSortedArrays/move.py
 ```
 
 上下两个数组各有 8 个元素。窗口覆盖连续的 8 个格子，沿“上排从左到右 → 下排从右到左 → 回到上排”的顺时针路径循环移动。窗口内的格子背景变绿，离开窗口后恢复原色。
@@ -25,7 +25,7 @@
 
 ## 运行有序数组合并动画
 
-在 PyCharm 中打开 `merge.py`，点击运行。
+在 PyCharm 中打开 `findMedianSortedArrays/merge.py`，点击运行。
 
 程序比较两个有序数组尚未取出的第一个元素，每次把较小的数移动到下方的结果数组。一边取完后，继续放入另一边的剩余元素。合并完成后保留结果，关闭窗口退出。
 
