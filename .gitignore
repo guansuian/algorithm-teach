@@ -1,0 +1,25 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local editor and evaluation files
+.idea/
+.vscode/
+.jbeval/
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Generated Manim output
+media/
